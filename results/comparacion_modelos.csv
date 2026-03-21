@@ -1,0 +1,6 @@
+Modelo,Descripcion,RMSE_CV_val,RMSE_CV_val_std,RMSE_CV_train,R2_CV_val,RMSE_test,R2_test,Gap_val_test
+Lineal (todas),"Regresion lineal, 12 features",0.7329,0.0154,0.7318,0.2937,0.7221,0.3134,-0.0109
+Lineal (forward),"Regresion lineal, 10 features (forward selection)",0.7328,0.0154,0.7318,0.294,0.7224,0.3128,-0.0104
+Poli grado 2 (OLS),"Polinomio grado 2, sin regularizacion",0.7014,0.0121,0.686,0.3533,0.695,0.3639,-0.0064
+Poli grado 2 + Lasso,"Polinomio grado 2, Lasso alpha=0.001",0.7003,0.0117,0.6873,0.3553,0.6926,0.3683,-0.0076
+Poli grado 3 + Lasso,"Polinomio grado 3, Lasso alpha=0.01",0.7014,0.0116,0.6772,0.3533,0.6863,0.3797,-0.015
